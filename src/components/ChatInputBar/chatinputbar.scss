@@ -1,0 +1,36 @@
+@import "./../../styles/colors";
+@import "./../../styles/breakpoints";
+
+.chatinputbar {
+  display: flex;
+  border-top: 2px solid $color-cape-cod;
+  &__input {
+    color: $color-cape-cod;
+    border: none;
+    padding: 2rem;
+    font-size: 2rem;
+    flex: auto;
+    overflow: auto;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: $color-cape-cod;
+    }
+
+    @media screen and (max-width: $breakpoint-xs) {
+      padding: 1.5rem;
+    }
+  }
+
+  &__button {
+    border: none;
+    background-color: $color-primary-dark;
+    font-size: 2rem;
+    font-weight: 600;
+    flex-basis: 20%;
+    color: $color-gallery;
+  }
+}

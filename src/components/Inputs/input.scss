@@ -1,0 +1,26 @@
+@import "./../../styles/colors";
+
+.input {
+  &__wrapper {
+    margin-bottom: 0.5rem;
+  }
+
+  &__label {
+    color: $color-cape-cod;
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+  }
+
+  &__text {
+    box-sizing: border-box;
+    color: $color-cape-cod;
+    font-size: 1.6rem;
+    padding: 1rem;
+    width: 100%;
+
+    &::placeholder {
+      color: $color-cape-cod;
+    }
+  }
+}

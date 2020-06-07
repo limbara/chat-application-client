@@ -1,0 +1,33 @@
+@import "./../../styles/colors";
+
+.chatinfobar {
+  background-color: $color-primary-dark;
+  color: $color-gallery;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  &__info-container {
+    padding: 1rem 2rem;
+    flex-grow: 1;
+
+    > h3 {
+      font-size: 2rem;
+      margin: 0;
+    }
+  }
+
+  &__actions-container {
+    flex-basis: 8%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__action-button {
+    font-size: 2rem;
+    &:hover {
+      color: $color-tundora;
+    }
+  }
+}

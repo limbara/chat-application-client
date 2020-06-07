@@ -1,0 +1,49 @@
+@import "./../../styles/colors";
+@import "./../../styles/breakpoints";
+
+.join {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 30%;
+
+  &__title {
+    border-bottom: 2px solid $color-cape-cod;
+    color: $color-cape-cod;
+    font-size: 4rem;
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  &__form {
+    padding: 1rem;
+  }
+
+  &__form-submit {
+    border: none;
+    background-color: $color-primary;
+    color: $color-cape-cod;
+    box-shadow: 3px 4px $color-primary-dark;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    padding: 1rem;
+    width: 100%;
+
+    &:hover {
+      box-shadow: 2px 3px $color-primary-dark;
+    }
+
+    &:active {
+      box-shadow: 1px 2px $color-primary-dark;
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-m) {
+    width: 80%;
+  }
+
+  @media screen and (min-width: $breakpoint-m) and (max-width: $breakpoint-l){
+    width: 50%;
+  }
+}

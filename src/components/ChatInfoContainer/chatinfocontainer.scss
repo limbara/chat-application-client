@@ -1,0 +1,21 @@
+.chatinfocontainer {
+  padding: 2rem;
+
+  > section {
+    > h1 {
+      font-size: 3rem;
+    }
+
+    > p {
+      font-size: 2rem;
+    }
+  }
+
+  &__user-list {
+  
+    }
+
+  &__user-list-item {
+    font-size: 1.6rem;
+}
+}

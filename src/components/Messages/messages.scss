@@ -1,0 +1,11 @@
+@import "./../../styles/breakpoints";
+
+.messages {
+  padding: 1rem;
+  overflow: auto;
+
+  @media screen and (min-width: $breakpoint-m) {
+    padding: 2rem;
+  }
+}
+

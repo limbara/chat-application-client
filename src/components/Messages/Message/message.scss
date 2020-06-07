@@ -1,0 +1,53 @@
+@import "./../../../styles/colors";
+@import "./../../../styles/breakpoints";
+
+.message {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+
+  &--other {
+    justify-content: flex-start;
+
+    .message__sender {
+      margin-left: 0.5rem;
+    }
+  }
+
+  &--me {
+    justify-content: flex-end;
+
+    .message__sender {
+      margin-right: 0.5rem;
+    }
+  }
+
+  &__sender {
+    color: $color-tundora;
+  }
+
+  &__container {
+    border-radius: 10px;
+    color: $color-gallery;
+    display: inline-block;
+    padding: 1rem 0.5rem;
+    max-width: 80%;
+
+    > p {
+      margin: 0;
+      padding: 0;
+    }
+
+    &--me {
+      background-color: $color-primary-dark;
+    }
+
+    &--other {
+      background-color: $color-cape-cod;
+    }
+  }
+
+  &__text {
+    color: $color-gallery;
+  }
+}
