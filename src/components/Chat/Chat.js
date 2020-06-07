@@ -21,6 +21,7 @@ const Chat = () => {
   const ENDPOINT = process.env.REACT_APP_SERVER_URL;
 
   function createSocket(endpoint) {
+    console.log(endpoint);
     socket = io(endpoint);
   }
 
