@@ -1,7 +1,5 @@
 [LIVE SITE](https://simple-chat-client-react.herokuapp.com/)
 
-This project was build based on Youtube video [Build and Deploy a Realtime Chat Application - Socket.io, Node.js, and React.js](https://www.youtube.com/watch?v=ZwFA3YMfkoc&list=PLNAb1QMgzT2bGwW2VHU9EqEr16acZ4-KZ), but with a slight difference on certain code. I decided to make the project in order to learn React.js & Socket.io
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
